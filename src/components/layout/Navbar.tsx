@@ -73,7 +73,8 @@ const Navbar: React.FC = () => {
             {/* Logo */}
             <div className="flex-shrink-0">
               <a href="/" className="flex items-center">
-                <Globe className="w-8 h-8 text-blue-600" />
+                {/* <Globe className="w-8 h-8 text-blue-600" /> */}
+                <img src="/logo.svg" className='h-8 w-8' alt="TravelTech" />
                 <span className="ml-2 text-2xl font-bold text-blue-600">TravelTech</span>
               </a>
             </div>

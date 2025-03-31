@@ -20,11 +20,11 @@ const Footer = () => {
     <footer className="bg-gray-900 text-white">
       {/* Main Footer */}
       <div className="container mx-auto px-6 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
           {/* Company Info */}
           <div className="lg:col-span-2">
             <div className="flex items-center mb-6">
-              <Globe className="w-8 h-8 text-blue-500" />
+            <img src="/logo.svg" className='h-8 w-8' alt="TravelTech" />
               <span className="ml-2 text-2xl font-bold">TravelTech</span>
             </div>
             <p className="text-gray-400 mb-6">
@@ -82,24 +82,6 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Contact Info */}
-          <div>
-            <h3 className="text-lg font-semibold mb-4">Contact Info</h3>
-            <ul className="space-y-3">
-              <li className="flex items-center text-gray-400">
-                <Phone className="w-5 h-5 mr-2" />
-                1-800-TRAVEL
-              </li>
-              <li className="flex items-center text-gray-400">
-                <Mail className="w-5 h-5 mr-2" />
-                support@traveltech.com
-              </li>
-              <li className="flex items-center text-gray-400">
-                <MapPin className="w-5 h-5 mr-2" />
-                123 Travel Street, NY
-              </li>
-            </ul>
-          </div>
         </div>
       </div>
 

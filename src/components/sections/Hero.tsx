@@ -47,7 +47,6 @@ const TravelTechWebsite = () => {
 
   return (
     <div className="min-h-screen bg-white">
-      {/* Previous sections remain the same... */}
       {/* Hero Section */}
       <section className="relative h-screen flex items-center">
         <div className="absolute inset-0 bg-gradient-to-r from-blue-600/90 to-purple-600/90 z-10"></div>
