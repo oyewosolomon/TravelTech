@@ -24,6 +24,8 @@
     --input: 214.3 31.8% 91.4%;
     --ring: 222 89% 51%;
     --radius: 0.75rem;
+    --font-pt-serif: 'PT Serif', serif;
+    --font-sans: 'ui-sans-serif', system-ui, sans-serif;
   }
 
   .dark {
@@ -46,10 +48,36 @@
     --border: 217.2 32.6% 17.5%;
     --input: 217.2 32.6% 17.5%;
     --ring: 224.3 76.3% 48%;
+    --font-pt-serif: 'PT Serif', serif;
+    --font-sans: 'ui-sans-serif', system-ui, sans-serif;
   }
 
   * {
     @apply border-border;
+  }
+
+  /* Apply PT Serif to body text */
+  body {
+    font-family: var(--font-pt-serif), var(--font-sans);
+    @apply font-normal;
+    line-height: 1.6;
+  }
+
+  /* Heading weights */
+  h1, h2, h3 {
+    font-family: var(--font-pt-serif), var(--font-sans);
+    @apply font-bold; /* 700 weight */
+    letter-spacing: -0.015em;
+  }
+
+  /* Beautiful italics */
+  em, i, blockquote {
+    font-style: italic;
+  }
+
+  /* Drop cap utility */
+  .drop-cap::first-letter {
+    @apply float-left text-5xl md:text-6xl pr-2 leading-none -mt-1;
   }
   body {
     @apply bg-background text-foreground;
