@@ -172,13 +172,14 @@ const TravelTechWebsite = () => {
                 transition={{ duration: 0.8, delay: 0.4, ease: "easeOut" }}
                 className="flex space-x-4"
               >
-                <motion.button 
+                <motion.a 
+                href='/plan-trip'
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   className="bg-white text-blue-600 px-8 py-3 rounded-full hover:bg-gray-100 transition-colors"
                 >
                   Plan Your Trip
-                </motion.button>
+                </motion.a>
                 <motion.button 
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
