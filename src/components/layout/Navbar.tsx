@@ -35,7 +35,7 @@ const Navbar: React.FC = () => {
   return (
     <>
       {/* Top Bar */}
-      <div className="hidden md:block bg-blue-600 text-white py-2">
+      <div className="sticky top-0 z-50 hidden md:block bg-blue-200 backdrop-blur-md transition-all duration-300 py-2">
         <div className="container mx-auto px-6">
           <div className="flex justify-between items-center">
             <div className="flex items-center space-x-6">
@@ -49,12 +49,12 @@ const Navbar: React.FC = () => {
               </div>
             </div>
             <div className="flex items-center space-x-4">
-              <select className="bg-transparent border-none text-gray-300 focus:ring-0">
+              <select className="bg-transparent border-none text-gray-600 focus:ring-0">
                 <option value="USD">USD</option>
                 <option value="EUR">EUR</option>
                 <option value="GBP">GBP</option>
               </select>
-              <select className="bg-transparent border-none text-gray-300 focus:ring-0">
+              <select className="bg-transparent border-none text-gray-600 focus:ring-0">
                 <option value="EN">English</option>
                 <option value="ES">Español</option>
                 <option value="FR">Français</option>
