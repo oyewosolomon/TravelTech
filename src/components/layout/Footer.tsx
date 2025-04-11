@@ -94,6 +94,7 @@ const Footer = () => {
               <div className="flex space-x-2">
                 <CreditCard className="w-8 h-8 text-gray-400" />
                 <DollarSign className="w-8 h-8 text-gray-400" />
+                <span className='text-gray-400 text-3xl -mt-1'>₦</span>
                 {/* Add more payment icons as needed */}
               </div>
             </div>
