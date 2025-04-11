@@ -39,10 +39,10 @@ const TravelTechWebsite = () => {
   const [activeTab, setActiveTab] = useState('flights');
 
   const popularDestinations = [
-    { name: 'Paris', price: '499', rating: '4.8', image:'/images/paris.jpg' },
-    { name: 'Bali', price: '799', rating: '4.9', image:'/images/bali.jpg'  },
-    { name: 'New York', price: '399', rating: '4.7', image:'/images/newyork.jpg'  },
-    { name: 'Tokyo', price: '899', rating: '4.9', image:'/images/tokyo.jpg'  }
+    { name: 'Paris', price: '800,000', rating: '4.8', image:'/images/paris.jpg' },
+    { name: 'Bali', price: '700,000', rating: '4.9', image:'/images/bali.jpg'  },
+    { name: 'New York', price: '1,500,00', rating: '4.7', image:'/images/newyork.jpg'  },
+    { name: 'Tokyo', price: '2,000,00', rating: '4.9', image:'/images/tokyo.jpg'  }
   ];
 
   return (
@@ -229,7 +229,7 @@ const TravelTechWebsite = () => {
                   <div className="absolute bottom-0 p-6 w-full">
                     <h3 className="text-2xl font-bold text-white mb-2">{dest.name}</h3>
                     <div className="flex justify-between items-center">
-                      <span className="text-white">From ${dest.price}</span>
+                      <span className="text-white">From ₦{dest.price}</span>
                       <div className="flex items-center">
                         <Star className="w-4 h-4 text-yellow-400 mr-1" />
                         <span className="text-white">{dest.rating}</span>
