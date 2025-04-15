@@ -84,14 +84,14 @@ const PlanYourTrip: React.FC = () => {
       </section>
 
 
-            {/* Trip Planner Form Section */}
-    <section className="py-16 bg-white">
+      {/* Trip Planner Form Section */}
+      <section className="py-16 bg-white">
         <div className="container mx-auto px-6">
           <h2 className="text-3xl font-semibold text-center text-blue-700 mb-12">Start Planning Your Trip</h2>
           <TripPlannerForm />
         </div>
       </section>
-    <Footer/>
+      <Footer/>
     </div>
   );
 };
