@@ -75,7 +75,7 @@ const Navbar: React.FC = () => {
               <a href="/" className="flex items-center">
                 {/* <Globe className="w-8 h-8 text-blue-600" /> */}
                 <img src="/logo.svg" className='h-8 w-8' alt="TravelTech" />
-                <span className="ml-2 text-2xl font-bold text-blue-600">TravelTech</span>
+                <span className="ml-2 text-2xl font-bold text-blue-600">TravelNow</span>
               </a>
             </div>
 

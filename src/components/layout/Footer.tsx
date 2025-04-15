@@ -24,8 +24,8 @@ const Footer = () => {
           {/* Company Info */}
           <div className="lg:col-span-2">
             <div className="flex items-center mb-6">
-            <img src="/logo.svg" className='h-8 w-8' alt="TravelTech" />
-              <span className="ml-2 text-2xl font-bold">TravelTech</span>
+            <img src="/logo.svg" className='h-8 w-8' alt="TravelNow" />
+              <span className="ml-2 text-2xl font-bold">TravelNow</span>
             </div>
             <p className="text-gray-400 mb-6">
               Making travel smarter through technology. Experience seamless booking with AI-powered recommendations.
@@ -99,7 +99,7 @@ const Footer = () => {
               </div>
             </div>
             <div className="text-gray-400 text-sm">
-              © {new Date().getFullYear()} TravelTech Solutions. All rights reserved.
+              © {new Date().getFullYear()} TravelNow Solutions. All rights reserved.
             </div>
           </div>
         </div>
